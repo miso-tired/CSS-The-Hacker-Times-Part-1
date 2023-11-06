@@ -6,17 +6,21 @@ body {
     border-color: #eee;
 }
 
+header {
+    font-family: Abril Fatface;
+}
+
 .newspaper-container {
     background: white;
     box-shadow: #ddd;
 }
 
-main h5 {
-    color: #dd3232;
+nav {
+    color: #777;
 }
 
-header {
-    font-family: Abril Fatface;
+main h5 {
+    color: #dd3232;
 }
 
 h2 {
