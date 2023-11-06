@@ -16,7 +16,7 @@ header {
     box-shadow: #ddd;
     width: 700px;
     border-radius: 5%;
-    padding: 1em;
+    padding: 10px;
 }
 
 nav {
@@ -54,16 +54,19 @@ main p {
 .more-articles {
     display: inline-block;
     width: 700px;
+    border-top: 4px ridge #777;
 }
 
 #article-one {
     display: inline-block;
     width: 250px;
-    padding: 20px;
+    padding: 1em;
+    text-align: center;
 }
 
 #article-two {
     display: inline-block;
     width: 250px;
-    padding: 20px;
+    padding: 1em;
+    text-align: center;
 }
