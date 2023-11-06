@@ -11,6 +11,10 @@ body {
     box-shadow: #ddd;
 }
 
+main p {
+    color: #dd3232;
+}
+
 header {
     font-family: Abril Fatface;
 }
