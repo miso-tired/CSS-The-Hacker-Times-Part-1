@@ -8,15 +8,30 @@ body {
 
 header {
     font-family: Abril Fatface;
+    text-align: center;
 }
 
 .newspaper-container {
     background: white;
     box-shadow: #ddd;
+    width: 700px;
+    border-radius: 5%;
+    padding: 1em;
 }
 
 nav {
-    color: #777;
+    background-color: #777;
+    list-style-type: none;
+}
+
+ul {
+    list-style-type: none;
+    display: inline-block;
+}
+
+li {
+    display: inline-block;
+    padding: 2px;
 }
 
 main h5 {
@@ -25,4 +40,8 @@ main h5 {
 
 h2 {
     font-family: Roboto Slab;
+}
+
+main p {
+    
 }
