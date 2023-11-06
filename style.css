@@ -20,18 +20,23 @@ header {
 }
 
 nav {
-    background-color: #777;
-    list-style-type: none;
+    background-color: #white;
+    list-style: none;
+    border: 4px ridge #777;
+}
+
+nav a {
+    text-decoration: none;
+    color: black;
 }
 
 ul {
     list-style-type: none;
-    display: inline-block;
 }
 
 li {
     display: inline-block;
-    padding: 2px;
+    padding: 3px;
 }
 
 main h5 {
@@ -44,4 +49,21 @@ h2 {
 
 main p {
     text-align: justify;
+}
+
+.more-articles {
+    display: inline-block;
+    width: 700px;
+}
+
+#article-one {
+    display: inline-block;
+    width: 250px;
+    padding: 20px;
+}
+
+#article-two {
+    display: inline-block;
+    width: 250px;
+    padding: 20px;
 }
