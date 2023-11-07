@@ -20,14 +20,17 @@ header {
 }
 
 nav {
+    position: sticky;
+    top: 0;
     background-color: white;
     list-style: none;
-    border: 4px groove #777;
+    border-top: 4px ridge;
+    border-bottom: 4px ridge;
 }
 
 nav a {
     text-decoration: none;
-    color: black;
+    color: #777;
 }
 
 ul {
@@ -42,7 +45,6 @@ li {
 main {
     text-align: center;
 }
-
 
 main h5 {
     color: #dd3232;
@@ -59,9 +61,13 @@ main p {
 
 .more-articles {
     display: inline-block;
-    width: 700px;
+    width: 100%;
     text-align: center;
     border-top: 4px ridge #777;
+}
+
+h4 {
+    font-size: 1.25em;
 }
 
 #article-one {
