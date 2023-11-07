@@ -22,7 +22,7 @@ header {
 nav {
     background-color: white;
     list-style: none;
-    border: 4px ridge #777;
+    border: 4px groove #777;
 }
 
 nav a {
@@ -39,12 +39,14 @@ li {
     padding: 3px;
 }
 
-main img {
-    justify-content: center;
+main {
+    text-align: center;
 }
+
 
 main h5 {
     color: #dd3232;
+    text-align: left;
 }
 
 h2 {
@@ -58,21 +60,20 @@ main p {
 .more-articles {
     display: inline-block;
     width: 700px;
+    text-align: center;
     border-top: 4px ridge #777;
 }
 
 #article-one {
     display: inline-block;
-    width: 250px;
+    width: 45%;
     padding: 1em;
     text-align: center;
-    margin-right: 20px;
 }
 
 #article-two {
     display: inline-block;
-    width: 250px;
+    width: 45%;
     padding: 1em;
     text-align: center;
-    margin-left: 20px;
 }
