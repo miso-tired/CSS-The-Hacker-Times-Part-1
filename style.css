@@ -39,6 +39,10 @@ li {
     padding: 3px;
 }
 
+main img {
+    justify-content: center;
+}
+
 main h5 {
     color: #dd3232;
 }
@@ -62,6 +66,7 @@ main p {
     width: 250px;
     padding: 1em;
     text-align: center;
+    margin-right: 20px;
 }
 
 #article-two {
@@ -69,4 +74,5 @@ main p {
     width: 250px;
     padding: 1em;
     text-align: center;
+    margin-left: 20px;
 }
